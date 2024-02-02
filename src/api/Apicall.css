@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .d-flex
+  {
+    display: flex;
+  }
+  .titel {
+  
+    height: 200px;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .row {
+    background-color: #272B33;
+    color: white;
+    padding: 50px 20px;
+  }
+  
+  .col {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .colinner{
+    width: 48%;
+    height: 230px;
+    display: flex;
+    background-color: #3C3E44;
+    margin: 20px 8px;  
+    border-radius: 10px;
+  }
+  .colinner img
+  {
+    border-radius: 10px 0px 0px 10px;
+  }
+  .colinner .i-info{
+    padding: 10px 10px;
+  }
+  .colinner .i-info p
+  {
+    padding: 8px 0px;
+    font-weight: bold;
+    color: #858498;
+  }
+  .colinner .i-info h3
+  {
+    font-size: 16px;
+    padding: 2px 0px;
+    display: flex;
+    align-items: center;
+  }
+  .colinner .i-info h3 .line
+  {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-right: 8px;
+    
+  }
+  
+  .colinner .i-info h1
+  {
+    font-size: 28px;
+  }
+  .colinner:nth-child(6) .i-info p
+  {
+    padding: 0px 0px;
+  
+  }
+  
+  
+  .colinner .i-info p h4
+  {
+    font-size: 20px;
+    padding: 5px 0px;
+    color: white;
+  }
+  
+  
